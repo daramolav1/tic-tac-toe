@@ -1,0 +1,39 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+  width: 500px;
+  height: 500px;
+  border: 1rem solid #ff652f;
+  background-color: #ff652f;
+}
+
+.square {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.X {
+  color: red;
+}
+.O {
+  color: green;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-wrapper button {
+  background-color: #272727;
+  color: #fff;
+  margin: 0.5rem 1rem;
+  border: none;
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+}
