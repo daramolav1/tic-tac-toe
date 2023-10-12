@@ -4,7 +4,7 @@ Tic-Tac-Toe is a react game where two players seek in alternate turns to complet
 
 ## Links
 
-- [Live Demo](https://tic-tac-toe-game-client.herokuapp.com)
+- [Live Demo](https://tic-tac-toe-game-client.netlify.app/)
 
 ## Screenshots
 
